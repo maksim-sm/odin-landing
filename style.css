@@ -22,3 +22,38 @@ body {
     font-size: 24px;
     color: #f9faf8;
 }
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    padding: 48px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero-header {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero button {
+    background-color: #3882f6;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: #e5e7eb;
+    padding: 10px 20px;
+}
+
+.hero-right {
+    width: 500px;
+    height: 200px;
+    background-color: #e5e7eb;
+    flex-shrink: 0;
+}
