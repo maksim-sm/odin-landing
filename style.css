@@ -86,3 +86,14 @@ body {
     background-color: #f9faf8;
     padding: 64px;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.author {
+    align-self: flex-end;
+}
