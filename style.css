@@ -57,3 +57,19 @@ body {
     background-color: #e5e7eb;
     flex-shrink: 0;
 }
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
+
+.item-icon {
+    max-width: 200px;
+}
