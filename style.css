@@ -107,3 +107,18 @@ body {
     font-style: italic;
     color: #1f2937;
 }
+
+.cta {
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 64px;
+    display: flex;
+    justify-content: space-around;
+}
